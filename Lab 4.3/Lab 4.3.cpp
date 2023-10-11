@@ -23,10 +23,9 @@ int main()
 			F = a * (x * x) + b * x + c;
 		else
 			if (a > 0 && c == 0)
-				b = F = -(a) / (x - b);
+				F = -(a) / (x - b);
 			else
 				F = a * (x + c);
-		F = a + b;
 		cout << "|" << setw(7) << setprecision(2) << x
 			<< " |" << setw(10) << setprecision(3) << F
 			<< " |" << endl;
